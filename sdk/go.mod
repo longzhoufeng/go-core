@@ -32,5 +32,5 @@ require (
 
 replace (
 	github.com/longzhoufeng/go-core => ../
-	github.com/longzhoufeng/go-core/plugins/logger/zap => ../plugins/logger/zap
+	github.com/longzhoufeng/go-core/plugins/logger/zap => ./../logger/zap
 )
