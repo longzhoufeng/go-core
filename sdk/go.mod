@@ -10,9 +10,7 @@ require (
 	github.com/dgrijalva/jwt-go v3.2.0+incompatible
 	github.com/gin-gonic/gin v1.7.2
 	github.com/longzhoufeng/go-core v1.0.2
-	//github.com/longzhoufeng/go-core/plugins/logger/zap v1.0.2
-	//github.com/longzhoufeng/go-core/sdk v1.0.2
-	github.com/go-admin-team/gorm-adapter/v3 v3.2.1-0.20210310135230-1608cc35b95b
+	github.com/longzhoufeng/go-core/sdk v1.0.2
 	github.com/go-playground/locales v0.13.0
 	github.com/go-playground/universal-translator v0.17.0
 	github.com/go-playground/validator/v10 v10.4.1
@@ -32,5 +30,4 @@ require (
 
 replace (
 	github.com/longzhoufeng/go-core => ../
-	github.com/longzhoufeng/go-core/plugins/logger/zap => ./../logger/zap
 )
