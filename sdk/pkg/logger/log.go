@@ -6,7 +6,7 @@ import (
 
 	"github.com/longzhoufeng/go-core/debug/writer"
 	"github.com/longzhoufeng/go-core/logger"
-	"github.com/longzhoufeng/go-core/plugins/logger/zap"
+	"github.com/longzhoufeng/go-core/logger/zap"
 	"github.com/longzhoufeng/go-core/sdk/pkg"
 
 	log "github.com/longzhoufeng/go-core/logger"
