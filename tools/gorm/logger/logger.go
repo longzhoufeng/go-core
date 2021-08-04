@@ -8,7 +8,7 @@ import (
 	"gorm.io/gorm/logger"
 	"gorm.io/gorm/utils"
 
-	loggerCore "github.com/longzhoufeng/go-core/logger"
+	loggerCore "github.com/longzhoufeng/go-logger"
 )
 
 // Colors

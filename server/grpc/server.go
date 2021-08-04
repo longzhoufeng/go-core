@@ -9,7 +9,7 @@ import (
 
 	middleware "github.com/grpc-ecosystem/go-grpc-middleware"
 	prometheus "github.com/grpc-ecosystem/go-grpc-prometheus"
-	log "github.com/longzhoufeng/go-core/logger"
+	log "github.com/longzhoufeng/go-logger"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/keepalive"
 )

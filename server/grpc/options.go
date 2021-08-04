@@ -11,9 +11,9 @@ import (
 	opentracing "github.com/grpc-ecosystem/go-grpc-middleware/tracing/opentracing"
 	prometheus "github.com/grpc-ecosystem/go-grpc-prometheus"
 	pbErr "github.com/longzhoufeng/go-core/errors"
-	log "github.com/longzhoufeng/go-core/logger"
 	"github.com/longzhoufeng/go-core/server/grpc/interceptors/logging"
 	requesttag "github.com/longzhoufeng/go-core/server/grpc/interceptors/request_tag"
+	log "github.com/longzhoufeng/go-logger"
 	"google.golang.org/grpc"
 )
 

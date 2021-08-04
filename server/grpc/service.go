@@ -7,9 +7,9 @@ import (
 
 	middleware "github.com/grpc-ecosystem/go-grpc-middleware"
 	opentracing "github.com/grpc-ecosystem/go-grpc-middleware/tracing/opentracing"
-	log "github.com/longzhoufeng/go-core/logger"
 	"github.com/longzhoufeng/go-core/server/grpc/interceptors/logging"
 	reqtags "github.com/longzhoufeng/go-core/server/grpc/interceptors/request_tag"
+	log "github.com/longzhoufeng/go-logger"
 	"google.golang.org/grpc"
 )
 

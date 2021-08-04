@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/longzhoufeng/go-core/logger"
+	log "github.com/longzhoufeng/go-logger"
 )
 
 type Server struct {
@@ -19,7 +19,7 @@ type Server struct {
 	internalProceduresStop chan struct{}
 	shutdownCtx            context.Context
 	shutdownCancel         context.CancelFunc
-	logger                 *logger.Helper
+	logger                 *log.Helper
 	opts                   options
 }
 

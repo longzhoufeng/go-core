@@ -5,8 +5,8 @@ import (
 	"path"
 	"time"
 
-	"github.com/longzhoufeng/go-core/logger"
 	"github.com/longzhoufeng/go-core/server/grpc/interceptors/logging/ctxlog"
+	logger "github.com/longzhoufeng/go-logger"
 	"google.golang.org/grpc"
 )
 
